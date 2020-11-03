@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+            <RelativeLayout
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:background="@color/Black">
+
+
+                <ImageView
+                    android:id="@+id/popular_image"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+
+                <TextView
+                    android:id="@+id/popular_service_provider_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/popular_image"
+                    android:text="Service Provider Name"
+                    android:textColor="@color/White"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/popular_service_name_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/popular_service_provider_name"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/popular_image"
+                    android:text="Service Name"
+                    android:textColor="@color/White"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/popular_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/popular_service_name_details"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/popular_image"
+                    android:text="Phone Number"
+                    android:textColor="@color/White"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/popular_service_location"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/popular_contacts"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/popular_image"
+                    android:background="@color/White"
+                    android:src="@drawable/location"
+
+                    />
+
+                <TextView
+                    android:id="@+id/popular_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/popular_contacts"
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/popular_service_location"
+                    android:text="Address"
+                    android:textColor="@color/White"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/popular_description_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/popular_service_location"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/popular_image"
+                    android:text="Description"
+                    android:textColor="@color/White"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

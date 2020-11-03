@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorProfile"
+    android:layout_height="match_parent"
+    tools:context=".Users.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_profile_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profile"
+
+                />
+            <TextView
+                android:id="@+id/my_profile_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_profile_pic"
+                android:text="Profile Name"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/my_profile_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_profile_full_name"
+                android:text="Username"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:id="@+id/my_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_profile_user_name"
+                android:text="Phone Number"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/my_profile_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_phone_number"
+                android:text="Hey there am using Parlour App developed by MK"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:id="@+id/my_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_profile_status"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:layout_marginTop="60dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/my_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_address"
+                android:text="Gender"
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceProviders.SpWorkLocations.SpWorkNakuru">
+
+
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carousel_home"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:pageColor="@color/Black"
+        app:fillColor="@color/White"
+        app:slideInterval="2000"
+        app:radius="6dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/Goldenrod"
+
+
+        >
+
+    </com.synnapps.carouselview.CarouselView>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carousel_home"
+        android:text="What do you need help with?"
+        android:textColor="@color/Goldenrod"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/blacklist"
+
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_title_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:text="300+ Services to choose from in Nakuru"
+        android:textColor="@color/Goldenrod"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="1dp"
+
+        />
+
+
+
+
+    <ListView
+        android:id="@+id/list_sp_nakuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_two"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center" />
+
+
+
+</RelativeLayout>

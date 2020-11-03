@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".Users.Setup">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/White"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/addprofile" />
+
+    <EditText
+
+        android:id="@+id/setup_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setup_profile_image"
+        android:padding="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:hint="Username"
+        android:inputType="textMultiLine"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_account"
+        android:background="@drawable/input_design"
+         />
+    <EditText
+        android:id="@+id/setup_full_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setup_user_name"
+        android:padding="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="Full Names"
+        android:inputType="textMultiLine"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_name"
+        android:background="@drawable/input_design"
+        />
+    <EditText
+        android:id="@+id/setup_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setup_full_names"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_phone_number"
+        android:background="@drawable/input_design"
+        tools:ignore="TextFields" />
+    <EditText
+        android:id="@+id/set_up_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setup_phone_number_input"
+        android:padding="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="City"
+        android:inputType="textMultiLine"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_location"
+        android:background="@drawable/input_design"
+        tools:ignore="TextFields" />
+
+    <LinearLayout
+       android:id="@+id/setup_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/set_up_location"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setup_save_button"
+            android:text="Save"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/custom_two_button"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

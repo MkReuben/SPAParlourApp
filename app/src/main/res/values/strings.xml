@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Spa Parlour Services</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="book"><u>Book Us Now</u></string>
+    <string name="register"><u>Register</u></string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+
+    <string name="new_account"><u>Do not have an account need new account</u></string>
+    <string name="sp_login"><u>Login as a service provider</u></string>
+    <string name="sp_new_account"><u>Click to create new Service Provider Account</u></string>
+
+    <string name="client"><u>As Client</u></string>
+    <string name="business"><u>As Service Provider</u></string>
+
+    <string name="sp">Increase your revenue by getting clients, manage services and products,post trending styles and get to the top.</string>
+    <string name="clients">Book salon/barbershop/spa appointments and discover best salons,services,trending styles and products</string>
+
+    <string name="mk_word">\"Tausi App is an amazing resource for anyone in the startup space.\"</string>
+    <string name="mk_position">Reuben Mugane, CEO of Weleet</string>
+    <string name="rm_words">\"Tausi App enables me to quickly,efficiently and cost-effectively get things done.\"</string>
+    <string name="rm_position"> Mk Jonas,Entrepreneur </string>
+    <string name="co_words">\"Being a small but growing brand,we have have to definately do alot more with less.And we want to create a bigger business than yourself,you are going to need help.\"</string>
+    <string name="co_position">Robert Katz and Ben, Co-founders</string>
+</resources>

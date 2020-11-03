@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".ServiceProviders.SpLocationActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Select Your City"
+        android:textColor="@color/Goldenrod"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_nairobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Nairobi"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_Nakuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nairobi"
+        android:text="Nakuru"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_kisumu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Nakuru"
+        android:text="Kisumu"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_eldoret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_kisumu"
+        android:text="Eldoret"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_mombasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_eldoret"
+        android:text="Mombasa"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_meru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_mombasa"
+        android:text="Meru"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_thika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_meru"
+        android:text="Thika"
+        android:textSize="14dp"
+        android:padding="8dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Goldenrod"
+    tools:context=".ServiceProviders.PostActivity">
+
+
+    <ImageButton
+        android:id="@+id/select_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/LightGrey"
+        android:src="@drawable/imageadd"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="55dp"
+        />
+
+ <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/add_service_name"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="55dp"
+    android:background="@drawable/input_design"
+    android:padding="15dp"
+     android:textSize="18dp"
+     android:textColor="@color/Black"
+     android:textColorHint="@color/Black"
+     android:layout_below="@id/select_post_image"
+     android:layout_marginTop="25dp"
+     android:layout_marginLeft="20dp"
+    android:backgroundTint="@color/White"
+    android:hint="Enter your description including price"
+    android:inputType="textMultiLine"
+
+    />
+
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/add_service_location"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginRight="55dp"-->
+<!--        android:background="@drawable/input_design"-->
+<!--        android:padding="15dp"-->
+<!--        android:textColor="@color/Black"-->
+<!--        android:textColorHint="@color/Black"-->
+<!--        android:layout_below="@id/add_service_phone_number"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:backgroundTint="@color/White"-->
+<!--        android:hint="Write Service Location"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/tv_spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" Select Location:"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/add_service_name"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/simpleSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_service_name"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/tv_spinner"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/simpleSpinner"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_service_post_button"
+            android:text="Add Service"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/custom_two_button"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.MeruServices.ClickPost.ClickPostNailExtensionMeru">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/post_image_details"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="image"
+                android:scaleType="centerCrop"
+
+                />
+
+
+            <TextView
+                android:id="@+id/post_phone_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/post_image_details"
+                android:text="Phone number "
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/post_description_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/post_phone_details"
+                android:text="Safari Description"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/popular_description_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inquire Here"
+                android:textSize="23dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/post_description_details"
+                android:fontFamily="@font/blacklist"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linear_one"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/popular_description_details"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+
+
+                >
+
+                <ImageView
+                    android:id="@+id/call_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/callus"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+
+                    />
+                <ImageView
+                    android:id="@+id/sms_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/sms"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/whatsapp_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/whatsapp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:layout_below="@id/linear_one"
+                >
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

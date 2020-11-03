@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/White"
+    android:layout_height="match_parent"
+    tools:context=".Users.SplashActivity">
+
+    <!--  <ImageView-->
+    <!--      android:layout_width="match_parent"-->
+    <!--      android:layout_height="wrap_content"-->
+    <!--      android:background="@drawable/logo"-->
+    <!--      android:foregroundGravity="center"-->
+    <!--      android:layout_marginTop="150dp"-->
+
+
+    <!--      />-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pr" />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-11dp"
+            android:layout_marginRight="-11dp"
+            android:fontFamily="@font/blacklist"
+            android:gravity="center"
+            android:text="Enjoy Professional Services at your comfort zone"
+            android:textColor="@color/Goldenrod"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:lottie_fileName="splash.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

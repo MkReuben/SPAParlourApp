@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "601392929290",
+    "firebase_url": "https://parlour-f1cbc.firebaseio.com",
+    "project_id": "parlour-f1cbc",
+    "storage_bucket": "parlour-f1cbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601392929290:android:b6c961b5a1122213e3ddf3",
+        "android_client_info": {
+          "package_name": "mk.beauty.services.parlours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601392929290-7hjbalv7irrkv9hfuefmmlvtpfcpnnlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.beauty.services.parlours",
+            "certificate_hash": "b106b5d14d72976ceb61334d348810ff38bdf2d2"
+          }
+        },
+        {
+          "client_id": "601392929290-7b24m40rkjtn6gfm2d1ig91t62bvid33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsJ3KSvQS6hmH-HCF-Cfw56tIbGh0btzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601392929290-7b24m40rkjtn6gfm2d1ig91t62bvid33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

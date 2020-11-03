@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.ServicesActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+
+            <ImageView
+
+                android:layout_width="125dp"
+                android:layout_height="170dp"
+                android:background="@color/Black"
+                android:scaleType="centerCrop"
+                android:id="@+id/servicethumbnail"/>
+
+            <TextView
+                android:id="@+id/tv_service_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="#edecec"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_service_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

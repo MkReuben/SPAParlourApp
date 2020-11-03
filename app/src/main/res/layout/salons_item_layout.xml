@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    app:cardElevation="15dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/Black"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/salon_image"
+            android:layout_width="135dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pedicurespa"
+
+            />
+
+        <TextView
+            android:id="@+id/salon_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saloon Name"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+             android:layout_toRightOf="@+id/salon_image"
+            android:textColor="@color/White"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/service__name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Name"
+            android:layout_toRightOf="@id/salon_image"
+            android:textSize="13sp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/salon_name"
+            android:textColor="@color/White"
+            />
+        <TextView
+            android:id="@+id/salon_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:layout_toRightOf="@id/salon_image"
+            android:textSize="13sp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/service__name"
+            android:textColor="@color/White"
+            />
+
+        <ImageView
+            android:id="@+id/img__location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/salon_contact"
+            android:layout_toRightOf="@id/salon_image"
+            android:layout_marginLeft="16dp"
+            android:background="@color/White"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/location"
+
+            />
+        <TextView
+            android:id="@+id/salon_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_toRightOf="@id/img__location"
+            android:textSize="13sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/salon_contact"
+            android:textColor="@color/White"
+            />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/salon_address"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/salon_image"
+            android:backgroundTint="@color/Yellow"
+            android:numStars="5"
+            android:rating="3.0"
+            android:secondaryProgressTint="@android:color/transparent"
+            android:stepSize="1.0"
+
+            android:theme="@style/RatingBar" />
+        <TextView
+            android:id="@+id/salon_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+            android:layout_toRightOf="@id/rating_bar"
+            android:textSize="12sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@id/salon_address"
+            android:textColor="@color/Goldenrod"
+            />
+
+
+        <ImageButton
+            android:id="@+id/like_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/rating_bar"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/salon_image"
+            android:background="@drawable/ic_like"
+            android:scaleType="centerCrop"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/salon_review"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold"
+
+            android:id="@+id/display_no_of_likes"
+            android:text="0 Likes"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/like_button"
+            android:textColor="@color/White"/>
+        <ImageButton
+            android:id="@+id/comment_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/salon_review"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="6dp"
+            android:baselineAlignBottom="false"
+            android:background="@drawable/ic_comments"
+            android:scaleType="centerCrop"
+
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

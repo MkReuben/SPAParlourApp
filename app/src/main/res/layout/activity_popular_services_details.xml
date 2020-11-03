@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Users.PopularServicesDetailsActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/popular_image_details"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="image"
+                android:scaleType="centerCrop"
+
+                />
+            <TextView
+                android:id="@+id/popular_sp_name_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popular_image_details"
+                android:text="Service Provider Name"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:id="@+id/popular_service_name_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popular_sp_name_details"
+                android:text="Service Name"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/popular_phone_number_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popular_service_name_details"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Phone Number"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:id="@+id/popular_location_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popular_phone_number_details"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:id="@+id/popular_description_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/popular_location_details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center"
+
+                android:text="Description"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/popular_or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inquire"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/popular_description_details"
+                android:fontFamily="@font/blacklist"
+
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/linear_one"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/popular_or"
+                android:layout_marginTop="20dp"
+
+
+                >
+
+                <ImageView
+                    android:id="@+id/call_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/callus"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="80dp"
+
+                    />
+                <ImageView
+                    android:id="@+id/sms_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/sms"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/whatsapp_details"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/whatsapp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

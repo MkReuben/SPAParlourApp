@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/phome"
+            android:title="Home"
+            android:iconTint="@color/Goldenrod"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account"
+            android:title="Profile"
+            android:iconTint="@color/Goldenrod"
+            />
+
+
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/location"
+                    android:iconTint="@color/Goldenrod"
+                    android:title="Locations" />
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/web"
+            android:iconTint="@color/Goldenrod"
+            android:title="Website"/>
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:iconTint="@color/Goldenrod"
+            android:title="Settings" />
+    </group>
+
+    <item
+        android:id="@+id/nav_aboutus"
+        android:icon="@drawable/paboutus"
+
+        android:iconTint="@color/Goldenrod"
+
+        android:title="About us" />
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/contactus"
+                android:iconTint="@color/Goldenrod"
+
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/phelp"
+                android:iconTint="@color/Goldenrod"
+                android:title="Help" />
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/plogout"
+              android:iconTint="@color/Goldenrod"
+                android:title="Sign Out" />
+
+
+        </menu>
+    </item>
+
+</menu>

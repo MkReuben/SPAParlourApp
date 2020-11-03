@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceProviders.SpCommentActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Reviews"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textview"
+        android:layout_margin="5dp"
+        android:id="@+id/comments_lists"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_input"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black"
+        android:backgroundTint="@color/LightGrey"
+        android:hint="Write a review here"
+        android:inputType="textMultiLine"
+
+        />
+    <ImageButton
+        android:id="@+id/post_comment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/comment_input"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_post"
+
+        android:padding="15dp"
+
+        />
+
+
+
+</RelativeLayout>

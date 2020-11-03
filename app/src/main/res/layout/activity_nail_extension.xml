@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.NairobiServices.NailExtension">
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/locations"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location"
+            android:layout_centerVertical="true"
+            android:padding="9dp"
+            android:background="@color/Goldenrod"
+            android:layout_alignParentRight="true"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Our Locations"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="69dp"
+            android:layout_marginTop="7dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipenya"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/r5"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_nail_extensions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".ServiceProviders.AddPostActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Select Category of your service"
+        android:textColor="@color/Goldenrod"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/manicure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Manicure"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+    android:id="@+id/pedicure"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/manicure"
+    android:text="Pedicure" android:padding="5dp"
+    android:textSize="14dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    /><TextView
+    android:id="@+id/nail_extension"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/pedicure"
+    android:text="Nail Extension"
+    android:textSize="14dp"
+    android:padding="5dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    />
+    <TextView
+    android:id="@+id/gel_nails"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/nail_extension"
+    android:text="Gel Nails"
+        android:padding="5dp"
+    android:textSize="14dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    /><TextView
+    android:id="@+id/weaving"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/gel_nails"
+    android:text="Weaving"
+    android:padding="5dp"
+    android:textSize="14dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    /><TextView
+    android:id="@+id/facial"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/weaving"
+    android:text="Facial"
+    android:padding="5dp"
+    android:textSize="14dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    /><TextView
+    android:id="@+id/massage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/facial"
+    android:text="Massage"
+    android:padding="5dp"
+    android:textSize="14dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    />
+    <TextView
+    android:id="@+id/make_up"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/massage"
+    android:text="Manicure"
+    android:textSize="14dp"
+        android:padding="5dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+
+    />
+    <TextView
+    android:id="@+id/braiding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/make_up"
+    android:text="Braiding"
+    android:textSize="14dp"
+    android:padding="5dp"
+    android:textColor="@color/Goldenrod"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:id="@+id/hair_styling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/braiding"
+        android:text="Hairstyling"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/prebridal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hair_styling"
+        android:text="Pre-Briday Packages"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/barber_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prebridal"
+        android:text="Barber Services"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/keratin_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barber_services"
+        android:text="Keratin Treatment"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:textColor="@color/Goldenrod"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
